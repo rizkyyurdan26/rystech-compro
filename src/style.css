@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  font-family: "Geist", sans-serif;
+}
+
+@theme {
+  --color-background: #1e293b;
+  --color-bgsecondary: #0f172a;
+  --color-title: #15cfff;
+  --color-card-logo: #334155;
+  --color-card-hero: #101632;
+  --color-text: #fff;
+}
+
+body {
+  background-color: var(--color-background);
+}
