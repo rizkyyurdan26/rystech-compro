@@ -12,7 +12,7 @@
 
     <!-- Arrow -->
     <div 
-      class="absolute left-0 top-1/2 -translate-x-1/3 translate-y-1/2 py-px bg-gradient-to-r from-title to-transparent w-6 md:w-7 group-hover:md:w-10 transfom duration-300"
+      class="absolute left-0 top-1/2 -translate-x-1/3 translate-y-1/2 py-px bg-linear-to-r from-title to-transparent w-6 md:w-7 group-hover:md:w-10 transfom duration-300"
     ></div>
   </div>
 </template>

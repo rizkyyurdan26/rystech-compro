@@ -58,13 +58,17 @@
             activeMenu === nav.id ? 'text-title font-semibold' : '',
           ]"
           :href="'#' + nav.id"
-          @click="setActiveMenu(nav.id); isOpen = false"
+          @click="
+            setActiveMenu(nav.id);
+            isOpen = false;
+          "
           >{{ nav.name }}</a
         >
 
         <a
-          class="border text-center border-title text-title font-semibold py-2 px-3 rounded-xl hover:scale-110 transform duration-300"
-          href=""
+          :class="['border text-center border-title font-semibold py-2 px-3 rounded-xl hover:scale-110 transform duration-300', activeMenu === 'contact' ? 'bg-title/20 text-text' : 'text-title']"
+          href="#contact"
+          @click="setActiveMenu('contact')"
           >Contact Us</a
         >
       </nav>

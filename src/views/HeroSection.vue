@@ -6,7 +6,7 @@
     
     <!-- Radial bg -->
     <div
-      class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] md:w-[1000px] md:h-[1000px] rounded-full bg-radial from-title/20 via-title/5 to-transparent blur-3xl pointer-events-none z-0"
+      class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-100 h-100 md:w-250 md:h-250 rounded-full bg-radial from-title/20 via-title/5 to-transparent blur-3xl pointer-events-none z-0"
     ></div>
 
     <!-- Content -->

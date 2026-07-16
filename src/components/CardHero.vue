@@ -14,7 +14,7 @@
     </ul>
 
     <div
-      class="py-1 bg-gradient-to-r from-title via-title/10 to-transparent w-1/2 group-hover:w-3/4 transform duration-300 self-start rounded-l-lg mt-5 ml-10"
+      class="py-1 bg-linear-to-r from-title via-title/10 to-transparent w-1/2 group-hover:w-3/4 transform duration-300 self-start rounded-l-lg mt-5 ml-10"
     ></div>
   </div>
 </template>
