@@ -1,6 +1,8 @@
 <template>
   <header class="sticky top-0 z-50 bg-background border-b border-text/10">
-    <div class="flex items-center justify-between py-4 mx-auto w-[90%]">
+    <div
+      class="flex items-center justify-between py-4 mx-auto w-[90%] md:max-w-6xl"
+    >
       <!-- Logo -->
       <div class="flex items-center gap-2 md:gap-5">
         <a href="/"
@@ -55,8 +57,8 @@
             'text-text hover:text-title transform duration-300',
             activeMenu === nav.id ? 'text-title font-semibold' : '',
           ]"
-          href="#"
-          @click.prevent="setActiveMenu(nav.id)"
+          :href="'#' + nav.id"
+          @click="setActiveMenu(nav.id); isOpen = false"
           >{{ nav.name }}</a
         >
 
@@ -80,9 +82,9 @@ const isScrolled = ref(false);
 
 const navData = [
   { id: "home", name: "Home" },
-  { id: "primacy", name: "Primacy" },
   { id: "offers", name: "Offers" },
   { id: "workflow", name: "Workflow" },
+  { id: "primacy", name: "Primacy" },
 ];
 
 const setActiveMenu = (menuId) => {

@@ -16,18 +16,18 @@
     >
       <!-- Title -->
       <div class="flex flex-col items-center text-center gap-2 md:gap-3">
-        <h1 class="text-title font-bold text-2xl md:text-4xl">RYSTECH</h1>
-        <h1 class="text-text font-bold text-2xl md:text-4xl">
+        <h1 class="text-title font-bold text-3xl md:text-5xl">RYSTECH</h1>
+        <h1 class="text-text font-bold text-3xl md:text-5xl">
           DIGITAL SOLUTION
         </h1>
-        <p class="text-text/70 mt-2">
+        <p class="text-text/70 text-base md:text-lg mt-5 max-w-xl">
           Solusi digital & gadget terpercaya untuk kebutuhan bisnis, teknologi,
           dan akademik Anda
         </p>
       </div>
 
       <!-- Card hero -->
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-10 w-full md:w-auto">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-2 lg:gap-10 w-full md:w-auto">
         <CardHero
           icon="twemoji:laptop"
           title="Jasa Layanan Digital"

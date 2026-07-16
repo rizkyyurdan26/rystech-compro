@@ -7,8 +7,8 @@
 
     <!-- Title -->
     <div class="flex flex-col items-center justify-center text-center">
-      <h1 class="text-text text-2xl md:text-3xl font-bold">Layanan Komprehensif Kami</h1>
-      <p class="text-text/70 mt-2 max-w-2xl">Kami menyediakan solusi terintegrasi untuk mengembangkan bisnis dan meningkatkan produktivitas Anda</p>
+      <h1 class="text-text text-xl md:text-2xl font-bold">Layanan Unggulan Kami</h1>
+      <p class="text-text/70 mt-2 max-w-2xl text-sm md:text-base">Kami menyediakan solusi terintegrasi untuk mengembangkan bisnis dan meningkatkan produktivitas Anda</p>
     </div>
 
     <!-- Content -->
