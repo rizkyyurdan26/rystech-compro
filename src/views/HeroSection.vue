@@ -42,9 +42,6 @@
 <script setup>
 import CardHero from "../components/CardHero.vue";
 import { dataCardHero } from "../data/dataCardHero.js";
-import { dataDigital } from "../data/dataDigital.js";
-import { dataHp } from "../data/dataHp.js";
-import { dataKonsultan } from "../data/dataKonsultan.js";
 
 const data = dataCardHero;
 </script>
