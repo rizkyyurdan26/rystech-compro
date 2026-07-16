@@ -1,5 +1,23 @@
-# Vue 3 + Vite
+# RYSTECH Company Profile
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Copyright 2026 RYSTECH Digital Solution
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+# Project Development
+
+- Build tools: vue 3 + vite
+- css: tailwindcss - https://tailwindcss.com/docs/installation/using-vite
+- animation: aos - https://github.com/michalsnik/aos
+- icon: iconify - https://iconify.design/docs/icon-components/vue/
+- Font: Geist - Google Font
+- Repository: https://github.com/rizkyyurdan26/rystech-compro
+
+# Clone & Run Project
+
+- git clone https://github.com/rizkyyurdan26/rystech-compro.git
+- npm install
+- npm run dev
+
+# Production
+
+- Server: Vercel
+- Live url: https://rysdev.my.id

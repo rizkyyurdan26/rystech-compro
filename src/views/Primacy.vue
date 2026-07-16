@@ -4,7 +4,12 @@
       class="flex flex-col md:flex-row justify-around items-center gap-5 w-[90%] md:max-w-6xl mx-auto"
     >
       <!-- Left -->
-      <div class="flex flex-col gap-5">
+      <div
+        data-aos="zoom-in"
+        data-aos-duration="1000"
+        data-aos-mirror="true"
+        class="flex flex-col gap-5"
+      >
         <h1 class="text-xl md:text-2xl text-text font-bold">
           Keunggulan Layanan <span class="text-title">RYSTECH</span>
         </h1>
@@ -35,6 +40,10 @@
 
       <!-- Right -->
       <div
+        data-aos="zoom-in"
+        data-aos-duration="1000"
+        data-aos-mirror="true"
+        data-aos-delay="200"
         class="flex flex-col items-center text-center p-10 md:p-20 bg-radial from-transparent via-title/10 to-title/20 border border-title/30 rounded-xl gap-2"
       >
         <Icon icon="noto:rocket" class="w-15 h-15 md:w-25 md:h-25" />

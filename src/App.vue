@@ -12,11 +12,20 @@
 </template>
 
 <script setup>
+import { nextTick, onMounted } from "vue";
 import Footer from "./views/Footer.vue";
 import Header from "./views/Header.vue";
 import HeroSection from "./views/HeroSection.vue";
 import Layanan from "./views/Layanan.vue";
 import Primacy from "./views/Primacy.vue";
 import Workflow from "./views/Workflow.vue";
+import 'aos/dist/aos.css';
+import Aos from "aos";
+
+
+onMounted(async () => {
+  await nextTick()
+  Aos.init()
+})
 
 </script>

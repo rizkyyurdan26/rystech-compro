@@ -68,7 +68,7 @@
         <a
           :class="['border text-center border-title font-semibold py-2 px-3 rounded-xl hover:scale-110 transform duration-300', activeMenu === 'contact' ? 'bg-title/20 text-text' : 'text-title']"
           href="#contact"
-          @click="setActiveMenu('contact')"
+          @click="setActiveMenu('contact'); isOpen = false"
           >Contact Us</a
         >
       </nav>
