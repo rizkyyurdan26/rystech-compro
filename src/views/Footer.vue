@@ -21,7 +21,7 @@
         data-aos-delay="200"
         class="mt-10 grid grid-cols-2 md:grid-cols-3 gap-5"
       >
-        <CardFooter :data="data" />
+        <CardFooter :data="data" @location="handleLocation"/>
       </div>
     </div>
 
@@ -41,4 +41,9 @@ import CardFooter from "../components/CardFooter.vue";
 import { dataFooter } from "../data/dataFooter.js";
 
 const data = dataFooter;
+
+const handleLocation = (e) => {
+  e.preventDefault();
+  alert("Please contact via WA or Gmail for scheduling time and location");
+}
 </script>
