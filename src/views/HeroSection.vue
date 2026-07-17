@@ -40,8 +40,16 @@
 </template>
 
 <script setup>
+import { useHead } from "@unhead/vue";
 import CardHero from "../components/CardHero.vue";
 import { dataCardHero } from "../data/dataCardHero.js";
 
 const data = dataCardHero;
+
+useHead({
+  title: 'Home',
+  meta: [
+    {name: 'description', content: 'Solusi digital & gadget terpercaya untuk kebutuhan bisnis, teknologi, dan akademik Anda.'}
+  ]
+})
 </script>

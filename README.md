@@ -9,6 +9,7 @@ Copyright 2026 RYSTECH Digital Solution
 - animation: aos - https://github.com/michalsnik/aos
 - icon: iconify - https://iconify.design/docs/icon-components/vue/
 - Font: Geist - Google Font
+- SEO: unhead - https://www.npmjs.com/package/@unhead/vue
 - Repository: https://github.com/rizkyyurdan26/rystech-compro
 
 # Clone & Run Project

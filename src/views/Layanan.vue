@@ -35,8 +35,20 @@
 </template>
 
 <script setup>
+import { useHead } from "@unhead/vue";
 import CardLayanan from "../components/CardLayanan.vue";
 import { dataLayanan } from "../data/dataLayanan.js";
 
 const data = dataLayanan;
+
+useHead({
+  title: "Jasa Layanan Digital & Gadget",
+  meta: [
+    {
+      name: "description",
+      content:
+        "Kami menyediakan jasa pembuatan website, aplikasi, desain poster, dan konsultan tugas kuliah atau skripsi.",
+    },
+  ],
+});
 </script>
