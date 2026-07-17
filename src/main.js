@@ -1,10 +1,11 @@
-import { createApp } from "vue";
-import "./style.css";
-import App from "./App.vue";
-import { createHead } from "@unhead/vue/client";
+// import { createApp } from 'vue'
+import './style.css'
+import App from './App.vue'
+import { ViteSSG } from 'vite-ssg/single-page'
+// import { createHead } from '@unhead/vue/server'
 
-const app = createApp(App);
-const head = createHead();
 
-app.use(head);
-app.mount("#app");
+
+// createApp(App).mount('#app')
+
+export const createApp = ViteSSG(App)

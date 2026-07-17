@@ -24,6 +24,7 @@ import Aos from "aos";
 import { useHead } from "@unhead/vue";
 
 useHead({
+  htmlAttrs: { lang: "id" },
   titleTemplate: "%s | RYSTECH Digital Solution",
   defaultTitle: "RYSTECH Digital Solution",
   meta: [
@@ -31,8 +32,14 @@ useHead({
       name: "description",
       content: "Solusi digital, akademik, dan gadget terbaik",
     },
+    { property: "og:type", content: "website" },
+    { property: "og:site_name", content: "RYSTECH Digital Solution" },
+    { property: "og:url", content: "https://rysdev.my.id/" },
     { property: "og:image", content: "https://rysdev.my.id/og-thumb.png" },
+    { name: "twitter:card", content: "summary_large_image" },
+    { name: "twitter:image", content: "https://rysdev.my.id/og-thumb.png" },
   ],
+  link: [{ rel: "canonical", href: "https://rysdev.my.id/" }],
 });
 
 onMounted(async () => {
