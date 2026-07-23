@@ -5,14 +5,14 @@
     >
       <!-- Logo -->
       <div class="flex items-center gap-2 md:gap-5">
-        <a href="/"
+        <a href="#home"
           ><img
             src="../assets/logo.png"
-            alt="RysTech"
-            title="RysTech"
+            alt="RysDev"
+            title="RysDev"
             class="w-8 md:w-12"
         /></a>
-        <h1 class="text-title font-bold text-sm md:text-xl">RYSTECH</h1>
+        <h1 class="text-title font-bold text-sm md:text-xl">RYSDEV</h1>
       </div>
 
       <!-- Hamburger btn -->

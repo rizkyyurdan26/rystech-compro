@@ -25,15 +25,15 @@ import { useHead } from "@unhead/vue";
 
 useHead({
   htmlAttrs: { lang: "id" },
-  titleTemplate: "%s | RYSTECH Digital Solution",
-  defaultTitle: "RYSTECH Digital Solution",
+  titleTemplate: "Layanan Website & Gadget Pekanbaru | RYSDEV Digital Solution",
+  defaultTitle: "RYSDEV Digital Solution",
   meta: [
     {
       name: "description",
-      content: "Solusi digital, akademik, dan gadget terbaik",
+      content: "Kami menyediakan layanan Teknologi, Gadget dan Akademik di Pekanbaru, meliputi konsultan IT, pembuatan website dan aplikasi, sparepart handphone serta jasa tugas kuliah maupun skripsi secara profesional dan terpercaya.",
     },
     { property: "og:type", content: "website" },
-    { property: "og:site_name", content: "RYSTECH Digital Solution" },
+    { property: "og:site_name", content: "RYSDEV Digital Solution" },
     { property: "og:url", content: "https://rysdev.my.id/" },
     { property: "og:image", content: "https://rysdev.my.id/og-thumb.png" },
     { name: "twitter:card", content: "summary_large_image" },

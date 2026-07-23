@@ -11,7 +11,7 @@
         class="flex flex-col gap-5"
       >
         <h1 class="text-xl md:text-2xl text-text font-bold">
-          Keunggulan Layanan <span class="text-title">RYSTECH</span>
+          Keunggulan Layanan <span class="text-title">RYSDEV</span>
         </h1>
 
         <div

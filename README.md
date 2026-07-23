@@ -1,6 +1,6 @@
-# RYSTECH Company Profile
+# RYSDEV Company Profile
 
-Copyright 2026 RYSTECH Digital Solution
+Copyright 2026 RYSDEV Digital Solution
 
 # Project Development
 
@@ -9,7 +9,7 @@ Copyright 2026 RYSTECH Digital Solution
 - animation: aos - https://github.com/michalsnik/aos
 - icon: iconify - https://iconify.design/docs/icon-components/vue/
 - Font: Geist - Google Font
-- Repository: https://github.com/rizkyyurdan26/rystech-compro
+- Repository: https://github.com/rizkyyurdan26/rysdev-compro
 
 # SEO
 
@@ -17,9 +17,10 @@ Copyright 2026 RYSTECH Digital Solution
 
 # Clone & Run Project
 
-- git clone https://github.com/rizkyyurdan26/rystech-compro.git
+- git clone https://github.com/rizkyyurdan26/rysdev-compro.git
 - npm install
 - npm run dev
+- npm run build
 
 # Production
 

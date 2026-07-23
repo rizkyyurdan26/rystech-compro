@@ -29,7 +29,7 @@
       class="mt-10 md:mt-20 border-t border-title/10 py-10 text-center text-sm md:text-base text-white/70 bg-bgsecondary"
     >
       <p>
-        <span>&copy</span> 2026 RYSTECH DIGITAL SOLUTION. All rights reserved.
+        <span>&copy</span> 2026 RYSDEV DIGITAL SOLUTION. All rights reserved.
       </p>
       <p>Solusi Digital & Gadget Terpercaya</p>
     </div>
