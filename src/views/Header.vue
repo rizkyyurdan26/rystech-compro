@@ -4,15 +4,15 @@
       class="flex items-center justify-between py-4 mx-auto w-[90%] md:max-w-6xl"
     >
       <!-- Logo -->
-      <div class="flex items-center gap-2 md:gap-5">
+      <div class="flex items-center gap-2">
         <a href="#home"
           ><img
-            src="../assets/logo.png"
+            src="/favicon192.png"
             alt="RysDev"
             title="RysDev"
             class="w-8 md:w-12"
         /></a>
-        <h1 class="text-title font-bold text-sm md:text-xl">RYSDEV</h1>
+        <h1 class="text-text font-bold text-sm md:text-xl">RYSDEV</h1>
       </div>
 
       <!-- Hamburger btn -->
